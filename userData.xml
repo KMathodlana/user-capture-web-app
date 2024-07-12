@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <User UserId="1">
+    <FirstName>Shaka</FirstName>
+    <LastName>Zulu</LastName>
+    <Email>shaka@zulu.com</Email>
+    <Cellphone>27721234567</Cellphone>
+  </User>
+  <User UserId="2">
+    <FirstName>Bill</FirstName>
+    <LastName>Gates</LastName>
+    <Email>bill@microsoft.com</Email>
+    <Cellphone>88291234567</Cellphone>
+  </User>
+  <User UserId="3">
+    <FirstName>Steve</FirstName>
+    <LastName>Jobs</LastName>
+    <Email>steve@apple.com</Email>
+    <Cellphone>88291234432</Cellphone>
+  </User>
+</ArrayOfUser>
