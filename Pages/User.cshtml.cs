@@ -5,7 +5,7 @@ using UserCaptureTest1.Models;
 
 namespace UserCaptureTest1.Pages
 {
-    public class UserGridModel : PageModel
+    public class UserModel : PageModel
     {
         private const string _filePath = @".\userData.xml";
 

@@ -1,6 +1,6 @@
 ﻿@page
-@using UserCaptureTest.Models
-@model UserCaptureTest1.Pages.UserGridModel
+@using UserCaptureTest1.Models
+@model UserCaptureTest1.Pages.UserModel
 @{
     <div class="row">
         <div class="col-sm-10">
@@ -24,7 +24,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach(UserData user in Model.Users)
+                @foreach (UserData user in Model.Users)
                 {
                     <tr>
                         <td>@user.UserId</td>
@@ -46,7 +46,7 @@
         </table>
     </div>
     <div>
-        <partial name="_AddUser"/>
-        <partial name="_EditUser"/>
+        <partial name="_AddUser" />
+        <partial name="_EditUser" />
     </div>
 }
