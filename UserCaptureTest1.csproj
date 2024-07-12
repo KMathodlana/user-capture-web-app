@@ -6,4 +6,20 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Pages\UserGrid.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\UserGrid.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\UserGrid.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\UserGrid.cshtml" />
+  </ItemGroup>
+
 </Project>
